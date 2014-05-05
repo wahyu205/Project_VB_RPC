@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=ServerSetup
+
+
+[Package|ServerSetup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server\Server Exe Setup
+
+[Package|ServerSetup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ServerSetup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ServerSetup|Files Found]
+
+[Package|ServerSetup|Files Released]
+
+[Package|ServerSetup|Missing Dependency Information]
+
+[Package|ServerSetup|Out-of-Date Dependency Information]
+
+[Package|ServerSetup|Files Added]
+
+[Package|ServerSetup|Files Removed]
+
+[Package|ServerSetup|Files In Project]
+F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server\Server.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|ServerSetup|Configure Registry Files]
+Applicable=No
+
+[Package|ServerSetup|Configure Remote Servers]
+Applicable=No
+
+[Package|ServerSetup|Install Locations]
+F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server\Server.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|ServerSetup|Configure Shared Files]
+Applicable=Yes
+F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server\Server.exe=Yes
+
+[Package|ServerSetup|Distribution]
+Type=single
+Size=
+Title=Server
+
+[Package|ServerSetup|IconGroups]
+Group0=Server
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|ServerSetup|Server]
+Icon1=Server.exe
+Title1=Server
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|ServerSetup|Package]
+PackageFolder=F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server\Server Exe Setup
+ProjectFolder=F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server
+ServerSideCab=
+File1=F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server\Server Exe Setup\setup.exe
+File2=F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server\Server Exe Setup\Setup.Lst
+File3=F:\Semester 5\Sistem Terdistribusi\Tugas\Tugas RPC\Server\Server Exe Setup\Server.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
